@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9; /* Light background for the app */
+  color: #333;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  border-bottom: 2px solid #ddd; /* Slight border to separate header */
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.pie-chart, .bar-chart {
+  flex: 1;
+  min-width: 300px;
+  height: 40vh;
+  max-height: 400px;
+  padding: 20px;
+  border: 3px solid #ddd; /* Increased border thickness */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+@media (max-width: 768px) {
+  .pie-chart, .bar-chart {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pie-chart, .bar-chart {
+    height: 25vh;
+  }
+}
+
+.robot-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.robot-card {
+  border: 3px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.robot-card.online {
+  border-color: #28a745;
+}
+
+.robot-card.offline {
+  border-color: #dc3545;
+}
+
+.robot-card.low-battery {
+  border-color: #ffcc00;
+}
+
+.status-count {
+  margin-bottom: 10px;
+}
+
+.view-location-button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.view-location-button:hover {
+  background-color: #0056b3;
+}
+
+.robot-details {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.robot-map-container {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.back-button {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #218838;
+}
