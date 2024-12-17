@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ychennakesavareddy/RobotFleet/static/css/main.b6e5372d.css",
+    "main.js": "/ychennakesavareddy/RobotFleet/static/js/main.bca80bbe.js",
+    "static/js/488.4e1653bf.chunk.js": "/ychennakesavareddy/RobotFleet/static/js/488.4e1653bf.chunk.js",
+    "index.html": "/ychennakesavareddy/RobotFleet/index.html",
+    "main.b6e5372d.css.map": "/ychennakesavareddy/RobotFleet/static/css/main.b6e5372d.css.map",
+    "main.bca80bbe.js.map": "/ychennakesavareddy/RobotFleet/static/js/main.bca80bbe.js.map",
+    "488.4e1653bf.chunk.js.map": "/ychennakesavareddy/RobotFleet/static/js/488.4e1653bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6e5372d.css",
+    "static/js/main.bca80bbe.js"
+  ]
+}
